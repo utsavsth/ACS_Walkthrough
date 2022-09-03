@@ -28,6 +28,11 @@ pip freeze > requirements.txt
 records the packages that we've installed in requirement.txt file
 
 ```
+pip install -r requirements.txt
+```
+Install dependencies
+
+```
 django-admin startproject <project_name>
 ```
 create django project folder containing boilerplate
@@ -46,3 +51,4 @@ py manage.py runserver
 
 git add .
 git commit -m "message"
+git push origin main
